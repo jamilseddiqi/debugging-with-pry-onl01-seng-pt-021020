@@ -4,7 +4,7 @@
 # 	binding.pry
 # 	num
 # end
-require pry 
+require pry
 class Dog
   @@all = []
 
@@ -36,4 +36,4 @@ end
     @name
   end
 end
-puts self.all 
+puts self.all
