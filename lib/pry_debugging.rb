@@ -4,7 +4,7 @@
 # 	binding.pry
 # 	num
 # end
-
+require pry 
 class Dog
   @@all = []
 
@@ -24,6 +24,7 @@ class Dog
   def self.print_all
     @@all.each do |dog|
       puts dog.name
+			binding.pry 
     end
 end
 
